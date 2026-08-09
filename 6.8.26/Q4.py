@@ -16,5 +16,7 @@ for i in number:
         index2 = index1
         highest_num = i
         index1 = number.index(i)
+    elif i > second_highest:
+        second_highest = i
 print(f"Highest Num is {highest_num} at index {index1}")
 print(f"Second Num is {second_highest} at index {index2}")
