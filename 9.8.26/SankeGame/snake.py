@@ -16,7 +16,7 @@ class Snake():
             body.color("white",self.random_color())
             body.penup()
             body.speed(0)
-            body.shape("square")
+            body.shape("circle")
             self.body.append(body)
             body.goto(self.x_cor, 0)
             self.x_cor -= 20
@@ -52,7 +52,7 @@ class Snake():
         body.color("white",self.random_color())
         body.penup()
         body.speed(0)
-        body.shape("square")
+        body.shape("circle")
         xcor = self.body[-1].xcor()
         ycor = self.body[-1].ycor()
         self.body.append(body)
